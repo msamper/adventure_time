@@ -707,6 +707,7 @@ track of the storyline strings*/
 			cout<<plot.text[111];
 			cout<<plot.text[112];
 			pChoice=input(2,character);
+			helped=7;//Remove
 			if (helped==7) {
 				cout<<plot.text[113];
 				cout<<plot.text[114];
