@@ -670,12 +670,12 @@ track of the storyline strings*/
 				cout<<plot.text[103];
 			}
 			if (pChoice==2) {
-				cout<<"I understand but I hope I can rely on you when the time comes";
+				cout<<"I understand but I hope I can rely on you when the time comes.\n";
 			}
 			if (pChoice==3) {
-				cout<<"That's disappointing to hear but I hope you will consider changing your mind. Good luck.";
+				cout<<"That's disappointing to hear but I hope you will consider changing your mind. Good luck.\n";
 			}
-			cout<<"The man departs leaving you to start the trek up the mountain to the nest of the dragon";
+			cout<<"The man departs leaving you to start the trek up the mountain to the nest of the dragon.";
 			cout<<plot.text[104];
 			pChoice=0;
 			while (pChoice!=1) {
@@ -747,6 +747,8 @@ track of the storyline strings*/
 				character->incGold(10000);
 			}
 		}
+		getFileContents("Horizon.txt");
+		getFileContents("End.txt");
 		end=true;
 	}
 	case 5: { //used for end of game and demo mode
