@@ -143,8 +143,8 @@ track of the storyline strings*/
 							moreGold=true;
 				}
 			}
-			if (pChoice==3&&moreGold) {
-				cout<<"You've already done that";
+			else if (pChoice==3&&moreGold) {
+				cout<<"You've already done that.";
 			}
 
 		}
